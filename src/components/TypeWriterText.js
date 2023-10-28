@@ -30,11 +30,11 @@ const Title = styled.h1`
   }
 
   @media (max-width: 48em) {
-    align-self:center;
+    align-self: center;
     text-align: center;
   }
   @media (max-width: 40em) {
-    width:90%;
+    width: 90%;
   }
 `;
 
@@ -53,7 +53,7 @@ const SubTitle = styled.h3`
   }
 
   @media (max-width: 48em) {
-    align-self:center;
+    align-self: center;
     text-align: center;
   }
 `;
@@ -64,16 +64,26 @@ const ButtonContainer = styled.div`
   margin-top: 5px;
 
   @media (max-width: 48em) {
-    align-self:center;
+    align-self: center;
     text-align: center;
 
-    button{
-      margin:0 auto;
+    button {
+      margin: 0 auto;
     }
   }
 `;
 
 const TypeWriterText = () => {
+  //this is the function that scroll the whole page to the top
+  const scrollToTop = (id) => {
+    let element = document.getElementById("about");
+
+    element.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+      inline: "nearest",
+    });
+  };
   return (
     <>
       <Title>
@@ -99,7 +109,7 @@ const TypeWriterText = () => {
         />
       </Title>
       <SubTitle>Bored of Apes? Try Something New.</SubTitle>
-      <ButtonContainer>
+      <ButtonContainer onClick={() => scrollToTop()}>
         <Button text="Explore" link="#about" />
       </ButtonContainer>
     </>

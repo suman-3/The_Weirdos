@@ -10,8 +10,8 @@ const LogoText = styled.h1`
   &:hover {
     transform: scale(1.1);
   }
-  h1{
-    margin:0;
+  h1 {
+    margin: 0;
   }
 
   @media (max-width: 64em) {
@@ -20,9 +20,21 @@ const LogoText = styled.h1`
 `;
 
 const Logo = () => {
+  //this is the function that scroll the whole page to the top
+  const scrollToTop = (id) => {
+    let element = document.getElementById("navigation");
+
+    element.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+      inline: "nearest",
+    });
+  };
   return (
     <LogoText>
-      <Link to="/">W.</Link>
+      <Link onClick={() => scrollToTop()}>
+        W.
+      </Link>
     </LogoText>
   );
 };

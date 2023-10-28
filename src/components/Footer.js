@@ -79,7 +79,6 @@ const MenuItems = styled.ul`
 
 const Item = styled.li`
   width: fit-content;
-  cursor: pointer;
 
   &::after {
     content: " ";

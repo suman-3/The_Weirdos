@@ -99,6 +99,17 @@ const Circle = styled.span`
 `;
 
 const Home = () => {
+
+    //this is the function that scroll the whole page to the top
+    const scrollToTop = (id) => {
+      let element = document.getElementById("about");
+  
+      element.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+        inline: "nearest",
+      });
+    };
   return (
     <Section id="home">
       <Container>
@@ -109,7 +120,7 @@ const Home = () => {
           <CoverVideo />
         </Box>
 
-        <Round>
+        <Round  onClick={() => scrollToTop()}>
           <Circle>&#x2193;</Circle>
           <img src={RoundTextBlack} alt="NFT" />
         </Round>

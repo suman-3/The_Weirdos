@@ -16,7 +16,6 @@ const Up = styled.div`
   right: 1rem;
   bottom: 1rem;
 
-  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: flex-start;

@@ -85,7 +85,6 @@ const ImgContainer = styled.div`
   padding: 1rem;
 
   border-radius: 20px;
-  cursor: pointer;
   img {
     width: 100%;
     height: auto;

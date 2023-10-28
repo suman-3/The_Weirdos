@@ -4,7 +4,6 @@ import { Minus } from "../Icons/Minus";
 import { Plus } from "../Icons/Plus";
 
 const Container = styled.div`
-  cursor: pointer;
   padding: 1rem 0.5rem;
   display: flex;
   flex-direction: column;

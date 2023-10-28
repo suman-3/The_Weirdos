@@ -66,6 +66,7 @@ const Container = styled.div`
     }
   }
   .swiper-button-next {
+    cursor: default;
     color: ${(props) => props.theme.text};
     right: 0;
     width: 4rem;
@@ -89,6 +90,7 @@ const Container = styled.div`
     }
   }
   .swiper-button-prev {
+    cursor: default;
     color: ${(props) => props.theme.text};
     left: 0;
     width: 4rem;

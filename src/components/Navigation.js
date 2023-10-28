@@ -66,7 +66,6 @@ const Menu = styled.ul`
 const MenuItem = styled.li`
   margin: 0 1rem;
   color: ${(props) => props.theme.text};
-  cursor: pointer;
 
   &::after {
     content: " ";

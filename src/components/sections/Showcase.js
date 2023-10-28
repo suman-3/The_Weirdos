@@ -60,7 +60,6 @@ const ImgContainer = styled.div`
   margin: 0 1rem;
   background-color: ${(props) => props.theme.body};
   border-radius: 20px;
-  cursor: pointer;
 
   @media (max-width: 48em) {
     width: 12rem;
