@@ -104,7 +104,6 @@ const HamburgerMenu = styled.span`
   align-items: center;
   justify-content: center;
 
-  cursor: pointer;
   transition: all 0.3s ease;
 
   @media (max-width: 64em) {

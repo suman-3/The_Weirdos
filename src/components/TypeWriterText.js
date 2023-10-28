@@ -110,7 +110,7 @@ const TypeWriterText = () => {
       </Title>
       <SubTitle>Bored of Apes? Try Something New.</SubTitle>
       <ButtonContainer onClick={() => scrollToTop()}>
-        <Button text="Explore" link="#about" />
+        <Button text="Explore" link="#about"  />
       </ButtonContainer>
     </>
   );
