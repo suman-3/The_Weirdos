@@ -1,19 +1,12 @@
 # How to Create NFT Collection Landing Page in React JS
 
-![GitHub stars](https://img.shields.io/github/stars/codebucks27/The-Weirdos-NFT-Website-Starter-Code?style=social&logo=ApacheSpark&label=Stars&maxAge=2592000)&nbsp;&nbsp;
-![GitHub forks](https://img.shields.io/github/forks/codebucks27/The-Weirdos-NFT-Website-Starter-Code?style=social&logo=KashFlow)&nbsp;&nbsp;
-![Github Followers](https://img.shields.io/github/followers/codebucks27.svg?style=social&label=Follow&maxAge=2592000)&nbsp;&nbsp;<br />
-
 This repository contains starter code for NFT Collection Website in ReactJS. <br />
 
 For the **Demo** and **Final Code** checkout this link👇: <br />
-<a href="https://devdreaming.com/videos/create-nft-collection-website-reactjs#overview" target="_blank">Checkout this mobile responsive NFT collection website built with ReactJS</a> <br />
+<a href="https://the-weirdos-nine.vercel.app/" target="_blank">Checkout this mobile responsive NFT collection website built with ReactJS</a> <br />
 
-If you want to learn how to create it please follow below tutorial👇: <br />
-https://youtu.be/edr2o59Twrs <br />
-[![YouTube Video Views](https://img.shields.io/youtube/views/edr2o59Twrs?style=social)](https://youtu.be/edr2o59Twrs)<br />
 
-⭐⭐⭐⭐ This repo is nominated in [Top How To Nft Open-Source Projects on Github](https://gitclone.dev/top-how-to-nft-open-source-projects-on-github/).
+⭐⭐⭐⭐ This repo is nominated in [Top How To Nft Open-Source Projects on Github](https://github.com/suman-3/The_Weirdos).
 
 ### NOTE:  <br />
 There is one change in the Button.js File.  <br />
